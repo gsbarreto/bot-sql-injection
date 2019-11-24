@@ -220,7 +220,7 @@ coletarLinks = async url => {
 
   console.log("===============================================");
   console.log("SQL Injection BOT");
-  console.log("Alunos: Daniel Collione, Gabriel Barreto, Sin");
+  console.log("Alunos: Daniel Collione, Gabriel Barreto, Sidnei Aparecido");
   console.log("2019-2");
   console.log("===============================================");
 
