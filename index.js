@@ -227,7 +227,7 @@ coletarLinks = async url => {
   input.question("Digite o site a ser analisado: ", async resposta => {
     urlInicial = resposta;
 
-    if (urlInicial.includes("http://")) {
+    if (urlInicial.includes("http://") || urlInicial.includes("https://")) {
       arrayLinks = await coletarLinks(urlInicial);
       console.log("\nBuscando links no site...");
       console.log("\nItens iniciais:", arrayLinks.length);
